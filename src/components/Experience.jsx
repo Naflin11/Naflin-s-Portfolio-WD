@@ -10,9 +10,9 @@ const Experience = () => {
       transition={{duration:0.5}}
       className="my-20 text-center text-4xl">Experience</motion.h1>
       
-      <div className="flex flex-col items-center"> {/* Center-align wrapper */}
+      <div className="flex flex-col items-center"> 
         {EXPERIENCES.map((experience, index) => (
-          <div key={index} className="mb-8 flex flex-wrap justify-center w-full lg:w-3/4"> {/* Center content within wrapper */}
+          <div key={index} className="mb-8 flex flex-wrap justify-center w-full lg:w-3/4"> 
             <motion.div 
             whileInView={{opacity: 1, x: 0}}
             initial={{opacity: 0, x:-100}}
